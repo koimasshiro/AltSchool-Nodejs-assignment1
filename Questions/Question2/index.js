@@ -25,7 +25,7 @@ const path = require('path');
 //     }
 // });
 
-//
+//update the Students directory to Names
 fs.rename("./Students", "./Names", function (){
     try {
         console.log("folder renamed successfully");
